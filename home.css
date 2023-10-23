@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: century Gothic;
+}
+
+header{
+    height: 100vh;
+    width: 100%;
+    background-image: url(1.png);
+    background-position: center;
+    background-size: cover;
+}
+ul{
+    float: right;
+    list-style: none;
+    margin-top: 35px;
+
+}
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #f5e8e1;
+    padding: 5px 25px;
+    font-size: 18px;
+
+}
+
+.button {
+    position: absolute;
+    top: 48%;
+    left: 87%;
+    transform: translate(-50%,-50%);
+}
+
+.btn{
+    background-color: #27611c;
+    padding: 10px 20px;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: 0.6s ease;
+    font-size: 18px;
+
+}
+
+.btn:hover{
+    background-color: #528d46;
+    color: #fff;
+}
+
+.slogan{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+
+h1{
+    font-size: 36px;
+    font-weight: 700 ;
+}
+
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+}
+
+.roots{
+    flex-basis: 31%;
+    background-color: #f6eacc;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+}
+
+.benefits{
+    flex-basis: 31%;
+    background-color: #f6eacc;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+}
+
+.striving{
+    flex-basis: 31%;
+    background-color: #f6eacc;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+}
